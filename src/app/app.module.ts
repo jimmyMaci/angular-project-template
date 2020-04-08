@@ -1,17 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import {APP_BASE_HREF} from '@angular/common';
+import { APP_ROUTING } from "./app.routing";
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([
-      { path: '', component: AppComponent },
-    ])
+    APP_ROUTING
   ],
   declarations: [ 
     AppComponent,

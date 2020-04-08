@@ -1,9 +1,7 @@
 # Eclipse
 .settings
-.vscode
 .project
 .angulardoc.json
-.idea/
 
 # IntelliJ
 .idea/
@@ -15,3 +13,4 @@ node_modules
 dist
 logs
 .vscode
+/package-lock.json
