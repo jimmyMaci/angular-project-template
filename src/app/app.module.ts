@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import {APP_BASE_HREF} from '@angular/common';
 import {AppRoutingModule} from './app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import {AppRoutingModule} from './app-routing.module';
   ],
   declarations: [
     AppComponent,
+    HomeComponent,
   ],
   bootstrap:    [ AppComponent ],
   providers: [{provide: APP_BASE_HREF, useValue : '/' }]
